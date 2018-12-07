@@ -59,7 +59,6 @@ class Usuario extends EntidadBase{
                        '".$this->email."',
                        '".$this->password."');";
         $save=$this->db()->query($query);
-        //$this->db()->error;
         return $save;
     }
 
