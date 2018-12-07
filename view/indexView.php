@@ -59,9 +59,5 @@
             <?php } ?>
         </section>
 		 <?php } ?>
-        <footer class="col-lg-12">
-            <hr/>
-           Ejemplo PHP MySQLi POO MVC - Víctor Robles - <a href="http://victorroblesweb.es">victorroblesweb.es</a> - Copyright &copy; <?php echo  date("Y"); ?>
-        </footer>
     </body>
 </html>
