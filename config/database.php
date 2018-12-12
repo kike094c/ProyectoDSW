@@ -1,10 +1,10 @@
 <?php
 return array(
     "driver"    =>"mysql",
-    "host"      =>"localhost",
-    "user"      =>"root",
-    "pass"      =>"majada",
-    "database"  =>"mvc",
+    "host"      =>"https://hl101.lucushost.org",
+    "user"      =>"ggxpbyqi_root",
+    "pass"      =>"Majada2018",
+    "database"  =>"ggxpbyqi_mvc",
     "charset"   =>"utf8"
 );
 ?>
