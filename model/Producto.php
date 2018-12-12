@@ -49,6 +49,7 @@ class Producto extends EntidadBase{
                        '".$this->precio."',
                        '".$this->marca."');";
         $save=$this->db()->query($query);
+        //$this->db()->error;
         return $save;
     }
 

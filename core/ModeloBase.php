@@ -35,7 +35,7 @@ class ModeloBase extends EntidadBase{
         return $resultSet;
     }
     
-    //Aqui podemos montarnos metodos para los modelos de consulta
+    //Aqui podemos crear metodos para los modelos de consulta
     
 }
 ?>

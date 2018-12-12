@@ -6,12 +6,5 @@ class UsuariosModel extends ModeloBase{
         $this->table="usuarios";
         parent::__construct($this->table, $adapter);
     }
-    
-    //Metodos de consulta
-    public function getUnUsuario(){
-        $query="SELECT * FROM usuarios WHERE email='enrique@enrique.com'";
-        $usuario=$this->ejecutarSql($query);
-        return $usuario;
-    }
 }
 ?>

@@ -7,7 +7,11 @@ class EntidadBase{
     public function __construct($table, $adapter) {
         $this->table=(string) $table;
         
-		
+		/*
+        require_once 'Conectar.php';
+        $this->conectar=new Conectar();
+        $this->db=$this->conectar->conexion();
+		 */
 		$this->conectar = null;
 		$this->db = $adapter;
     }
@@ -49,22 +53,6 @@ class EntidadBase{
         
         return $resultSet;
     }
-    
-    public function deleteById($id){
-        $query=$this->db->query("DELETE FROM $this->table WHERE id=$id"); 
-        return $query;
-    }
-    
-    public function deleteBy($column,$value){
-        $query=$this->db->query("DELETE FROM $this->table WHERE $column='$value'"); 
-        return $query;
-    }
-    
-
-    /*
-     * Aqui podemos crear métodos que nos ayuden
-     * a hacer operaciones con la base de datos de la entidad
-     */
     
 }
 ?>

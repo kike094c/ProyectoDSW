@@ -29,7 +29,7 @@ class ControladorBase{
         header("Location:index.php?controller=".$controlador."&action=".$accion);
     }
     
-    //Métodos para los controladores
+    //Metodos para los controladores
 
 }
 ?>
